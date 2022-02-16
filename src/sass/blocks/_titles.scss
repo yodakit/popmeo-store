@@ -1,0 +1,18 @@
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: black;
+}
+.subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: $colorSemiRed;
+    text-transform: uppercase;
+}
+.descr {
+    font-size: 0.875rem;
+    line-height: 1.7em;
+    color: $colorGrey;
+}

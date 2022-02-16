@@ -1,0 +1,55 @@
+.menu {
+    min-height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__wrapper {
+        display: flex;
+    }
+    &__links {
+        display: flex;
+        justify-content: space-between;
+        li:not(:last-child) {
+            margin-right: 40px;
+        }
+        li:last-child {
+            margin-right: 20px;
+        }
+    }
+    &__link {
+        font-size: 0.75rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: $colorGrey;
+        &:hover {
+            color: $colorRed;
+            transition: 0.3s ease all;
+        }
+        &_active {
+            color: $colorRed;
+        }
+    }
+    &__cart {
+        padding-left: 20px;
+        border-left: 1px solid #EBEBEB;;
+        span {
+            padding-left: 3px;
+            color: black;
+            font-family: "Libre Franklin",sans-serif;
+            font-weight: 400;
+            font-size: 0.875rem;
+        }
+        &:hover, & span:hover {
+            color: $colorRed;
+            transition: 0.3s ease all;
+        }
+    }
+}
+.logo {
+    &__img {
+        max-width: 109px;
+    }
+}
+.icon-cart:before {
+    font-size: 1.1rem;
+}

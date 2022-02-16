@@ -44,6 +44,7 @@ img {
   display: block;
 }
 
+
 a {
   text-decoration: none;
 }
@@ -55,4 +56,8 @@ a {
 }
 
 @import 'base/vars';
+@import 'blocks/menu';
+@import 'blocks/titles';
+@import 'blocks/buttons';
+@import 'blocks/header';
 @import 'base/media';

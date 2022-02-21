@@ -1,0 +1,38 @@
+.products {
+    padding: 77px 0 50px 0;
+    position: relative;
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &:nth-child(even) > img{
+            order: 2;
+        }
+        &:nth-child(odd) > div{
+            margin-right: 10%;
+        }
+    }
+    &__content {
+        width: 33%;
+    }
+    &__title {
+        font-size: 1.5rem;
+    }
+    &__descr {
+        margin-top: 23px;
+    }
+    &__details {
+        display: block;
+        margin-top: 27px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.875rem;
+        color: black;
+        line-height: 1.7em;
+        font-weight: 700;
+        &:hover {
+            color: $colorRed;
+            transition: 0.3s ease all;   
+        }
+    }
+}
+

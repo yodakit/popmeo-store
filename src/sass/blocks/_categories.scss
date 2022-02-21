@@ -71,6 +71,9 @@
     top: 50%;
     left: 8%;
     transform: translate( 0,-50%);
+    &__right {
+        left: 95%;
+    }
     &__title {
         font-family: 'Poppins', sans-serif;
         writing-mode: vertical-lr;

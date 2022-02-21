@@ -25,6 +25,9 @@
             width: 43%;
         }
     }
+    .collection {
+        padding: 100px 0;
+    }
 }
 
 @media (max-width: 991px) {
@@ -62,7 +65,9 @@
             }
         }
     }
-    
+    .collection {
+        padding: 70px 0;
+    }
 }
 
 @media (max-width: 767px) {
@@ -129,6 +134,25 @@
         }
         &__details {
             margin-top: 15px;
+        }
+    }
+    .collection {
+        &__title {
+            margin: 0;
+        }
+        &__cards {
+            margin-top: 30px;
+        }
+    }
+    .card {
+        &__info {
+            margin: 15px 0;
+        }
+        &__title {
+            font-size: 0.9rem;
+        }
+        &__price {
+            font-size: 0.85rem;
         }
     }
 }
@@ -219,6 +243,20 @@
         }
         &__title {
             font-size: 1.5rem;
+        }
+    }
+    .collection {
+        padding: 40px 0; 
+    }
+    .card {
+        &__info {
+            margin: 10px 0;
+        }
+        &__title {
+            font-size: 0.8rem;
+        }
+        &__price {
+            font-size: 0.75rem;
         }
     }
 }

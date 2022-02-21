@@ -1,0 +1,21 @@
+.collection {
+    position: relative;
+    padding: 120px 0;
+    text-align: center;
+    &__title {
+        margin-top: 17px;
+    }
+    &__cards {
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    &__card {
+        flex: 30%;
+    }
+    &__btn {
+        margin-top: 40px;
+        padding: 20px 58px;
+    }
+}
